@@ -7,3 +7,5 @@ fi
 
 # User specific aliases and functions
 alias tmux='tmux -2'
+
+set -o vi
