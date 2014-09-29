@@ -1,0 +1,10 @@
+[user]
+    name = mingchaoyan
+    email = mingchaoyan@gmail.com
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    pl = pull
+    ps = push
+    ca = commit -a
