@@ -1,0 +1,11 @@
+Library/
+Temp/
+obj/
+*.app/
+*.csproj
+*.sln
+*.suo
+*.unityproj
+*.userprefs
+*.exe
+.DS_Store
