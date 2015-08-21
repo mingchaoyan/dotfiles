@@ -9,3 +9,4 @@ obj/
 *.userprefs
 *.exe
 .DS_Store
+tags
