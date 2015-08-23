@@ -10,3 +10,5 @@
     ca = commit -a
 [push]
 	default = simple
+[core]
+	excludesfile = /Users/mingchaoyan/.gitignore_global
