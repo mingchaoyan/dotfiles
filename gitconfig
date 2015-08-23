@@ -8,3 +8,5 @@
     pl = pull
     ps = push
     ca = commit -a
+[push]
+	default = simple
