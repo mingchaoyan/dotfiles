@@ -1,7 +1,12 @@
 % ex: ft=erlang ts=4 sw=4 et  
 Home = os:getenv("HOME").
 Dir = Home ++ "/ErlangImports/deps".
-{ok, L} = file:list_dir(Dir).
+L = case file:list_dir(Dir) of
+              {ok, R} ->
+                  R;
+              _ ->
+                  []
+          end.
 lists:foreach(fun(I) ->
                       Path = Dir ++ "/" ++ I ++ "/ebin",
                       code:add_path(Path)
