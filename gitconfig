@@ -8,7 +8,10 @@
     pl = pull
     ps = push
     ca = commit -a
-[push]
-	default = simple
+    d  = difftool
 [core]
-	excludesfile = /Users/mingchaoyan/.gitignore_global
+	editor = vim
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = No
