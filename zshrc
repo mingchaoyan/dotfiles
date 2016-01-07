@@ -1,5 +1,12 @@
+SYSTEM=`uname -s`
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/mingchaoyan/.oh-my-zsh
+if [ $SYSTEM = "Linux" ] ;then
+        echo "Linux"
+        export ZSH=/home/mingchaoyan/.oh-my-zsh
+elif [ $SYSTEM = "Darwin" ] ;then
+        echo "Darwin"
+        export ZSH=/Users/mingchaoyan/.oh-my-zsh
+fi
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -54,7 +61,11 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+if [ $SYSTEM = "Linux" ] ;then
+        export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/mingchaoyan/bin:/home/mingchaoyan/bin"
+elif [ $SYSTEM = "Darwin" ] ;then
+        export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+fi
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -89,8 +100,14 @@ export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
 # GUN ls color
-eval `gdircolors ~/.dircolors/dircolors.256dark`
-alias ls='gls --color=auto'
+
+if [ $SYSTEM = "Linux" ] ;then
+        alias ls='ls --color=auto'
+        eval `dircolors ~/.dircolors-solarized/dircolors.256dark`
+elif [ $SYSTEM = "Darwin" ] ;then
+        alias ls='gls --color=auto'
+        eval `gdircolors ~/.dircolors-solarized/dircolors.256dark`
+fi
 
 # node
 export NVM_DIR="/Users/mingchaoyan/.nvm"
