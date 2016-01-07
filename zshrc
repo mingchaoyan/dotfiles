@@ -1,10 +1,8 @@
 SYSTEM=`uname -s`
 # Path to your oh-my-zsh installation.
 if [ $SYSTEM = "Linux" ] ;then
-        echo "Linux"
         export ZSH=/home/mingchaoyan/.oh-my-zsh
 elif [ $SYSTEM = "Darwin" ] ;then
-        echo "Darwin"
         export ZSH=/Users/mingchaoyan/.oh-my-zsh
 fi
 
@@ -110,6 +108,6 @@ elif [ $SYSTEM = "Darwin" ] ;then
 fi
 
 # node
-export NVM_DIR="/Users/mingchaoyan/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 nvm use v5.3.0
