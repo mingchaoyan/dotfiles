@@ -60,7 +60,7 @@ elif [ $SYSTEM = "Darwin" ] ;then
 fi
 # export MANPATH="/usr/local/man:$MANPATH"
 
-source ~/oh-my-zsh.sh
+source ~/.oh-my-zsh/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
