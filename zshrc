@@ -1,10 +1,4 @@
 SYSTEM=`uname -s`
-# Path to your oh-my-zsh installation.
-if [ $SYSTEM = "Linux" ] ;then
-        export ZSH=/home/mingchaoyan/.oh-my-zsh
-elif [ $SYSTEM = "Darwin" ] ;then
-        export ZSH=/Users/mingchaoyan/.oh-my-zsh
-fi
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -66,7 +60,7 @@ elif [ $SYSTEM = "Darwin" ] ;then
 fi
 # export MANPATH="/usr/local/man:$MANPATH"
 
-source $ZSH/oh-my-zsh.sh
+source ~/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
