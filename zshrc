@@ -86,9 +86,8 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cdl="cd ~/lab"
-alias cdh="cd ~/hub"
-alias cdt="cd ~/test"
+alias cdl="cd ~/GitLab"
+alias cdh="cd ~/GitHub"
 
 # Tmux
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"
