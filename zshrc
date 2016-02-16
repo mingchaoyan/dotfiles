@@ -1,11 +1,5 @@
 SYSTEM=`uname -s`
-# Path to your oh-my-zsh installation.
-if [ $SYSTEM = "Linux" ] ;then
-        export ZSH=/home/mingchaoyan/.oh-my-zsh
-elif [ $SYSTEM = "Darwin" ] ;then
-        export ZSH=/Users/mingchaoyan/.oh-my-zsh
-fi
-
+export ZSH=~/.oh-my-zsh
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -66,7 +60,7 @@ elif [ $SYSTEM = "Darwin" ] ;then
 fi
 # export MANPATH="/usr/local/man:$MANPATH"
 
-source $ZSH/oh-my-zsh.sh
+source ~/.oh-my-zsh/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -92,9 +86,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cdl="cd ~/lab"
-alias cdh="cd ~/hub"
-alias cdt="cd ~/test"
+alias cdl="cd ~/GitLab"
+alias cdh="cd ~/GitHub"
 
 # Tmux
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"

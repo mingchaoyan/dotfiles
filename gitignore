@@ -10,3 +10,4 @@ obj/
 *.exe
 .DS_Store
 tags
+*.swp
