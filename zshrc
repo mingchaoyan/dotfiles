@@ -89,6 +89,7 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 alias cdl="cd ~/GitLab"
 alias cdh="cd ~/GitHub"
 alias gd="git difftool"
+alias gdc="git difftool --cached"
 
 # Tmux
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"
