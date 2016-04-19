@@ -54,9 +54,9 @@ plugins=(git)
 # User configuration
 
 if [ $SYSTEM = "Linux" ] ;then
-        export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/mingchaoyan/bin:/home/mingchaoyan/bin"
+        export PATH="$PATH:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/mingchaoyan/bin:/home/mingchaoyan/bin"
 elif [ $SYSTEM = "Darwin" ] ;then
-        export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+        export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 fi
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -86,8 +86,6 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cdl="cd ~/GitLab"
-alias cdh="cd ~/GitHub"
 alias gd="git difftool"
 alias gdc="git difftool --cached"
 alias redis-server="/usr/local/src/redis-3.0.7/src/redis-server"
@@ -151,3 +149,6 @@ elif type compctl &>/dev/null; then
   compctl -K _pm2_completion + -f + pm2
 fi
 ###-end-pm2-completion-###
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="/usr/local/sbin:$PATH"
