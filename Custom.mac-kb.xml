@@ -62,7 +62,7 @@
     <binding command="MonoDevelop.Ide.Commands.SearchCommands.ReplaceInFiles" shortcut="Alt+Shift+Meta+F" />
     <binding command="MonoDevelop.Ide.Commands.SearchCommands.GotoType" shortcut="Shift+Meta+T" />
     <binding command="MonoDevelop.Ide.Commands.SearchCommands.GotoFile" shortcut="Shift+Meta+D" />
-    <binding command="MonoDevelop.Components.MainToolbar.Commands.NavigateTo" shortcut="Meta+P" />
+    <binding command="MonoDevelop.Components.MainToolbar.Commands.NavigateTo" shortcut="Control+P" />
     <binding command="MonoDevelop.Ide.Commands.SearchCommands.GotoLineNumber" shortcut="Meta+L" />
     <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.ShowCompletionWindow" shortcut="Control+Space" />
     <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.LineEnd" shortcut="End" />
@@ -93,11 +93,13 @@
     <binding command="MonoDevelop.SourceEditor.SourceEditorCommands.PrevIssue" shortcut="Alt+Page_Up" />
     <binding command="MonoDevelop.SourceEditor.SourceEditorCommands.NextIssueError" shortcut="Alt+Shift+Page_Down" />
     <binding command="MonoDevelop.SourceEditor.SourceEditorCommands.PrevIssueError" shortcut="Alt+Shift+Page_Up" />
-    <binding command="MonoDevelop.Refactoring.RefactoryCommands.GotoDeclaration" shortcut="Meta+D" />
+    <binding command="MonoDevelop.Refactoring.RefactoryCommands.GotoDeclaration" shortcut="" />
     <binding command="MonoDevelop.Refactoring.RefactoryCommands.FindReferences" shortcut="Shift+Meta+R" />
     <binding command="MonoDevelop.Refactoring.RefactoryCommands.QuickFix" shortcut="Alt+Return" />
     <binding command="MonoDevelop.Refactoring.RefactoryCommands.ImportSymbol" shortcut="Control+Alt+Space" />
     <binding command="MonoDevelop.AnalysisCore.AnalysisCommands.ShowFixes" shortcut="Control+." />
     <binding command="MonoDevelop.CodeGeneration.CodeGenerationCommands.ShowCodeGenerationWindow" shortcut="Meta+I" />
+    <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.PageUp" shortcut="Control+B" />
+    <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.PageDown" shortcut="Control+F" />
   </scheme>
 </schemes>
