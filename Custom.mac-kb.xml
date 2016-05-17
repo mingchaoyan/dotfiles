@@ -1,4 +1,4 @@
-﻿<schemes version="1.0">
+<schemes version="1.0">
   <scheme name="current">
     <binding command="MonoDevelop.Ide.Commands.EditCommands.DeleteKey" shortcut="BackSpace" />
     <binding command="MonoDevelop.Ide.Commands.EditCommands.Copy" shortcut="Meta+C" />
@@ -84,9 +84,9 @@
     <binding command="MonoDevelop.CSharp.ExpandCommands.ShrinkSelection" shortcut="Alt+Shift+Down" />
     <binding command="MonoDevelop.DesignerSupport.Commands.SwitchBetweenRelatedFiles" shortcut="Control+Meta+Up" />
     <binding command="MonoDevelop.Debugger.DebugCommands.Pause" shortcut="Alt+Meta+P" />
-    <binding command="MonoDevelop.Debugger.DebugCommands.StepOver" shortcut="Shift+Meta+O" />
-    <binding command="MonoDevelop.Debugger.DebugCommands.StepInto" shortcut="Shift+Meta+I" />
-    <binding command="MonoDevelop.Debugger.DebugCommands.StepOut" shortcut="Shift+Meta+U" />
+    <binding command="MonoDevelop.Debugger.DebugCommands.StepOver" shortcut="F4" />
+    <binding command="MonoDevelop.Debugger.DebugCommands.StepInto" shortcut="F3" />
+    <binding command="MonoDevelop.Debugger.DebugCommands.StepOut" shortcut="F2" />
     <binding command="MonoDevelop.Debugger.DebugCommands.ToggleBreakpoint" shortcut="Meta+\" />
     <binding command="MonoDevelop.Debugger.DebugCommands.EnableDisableBreakpoint" shortcut="Alt+Meta+/" />
     <binding command="MonoDevelop.SourceEditor.SourceEditorCommands.NextIssue" shortcut="Alt+Page_Down" />
@@ -101,5 +101,6 @@
     <binding command="MonoDevelop.CodeGeneration.CodeGenerationCommands.ShowCodeGenerationWindow" shortcut="Meta+I" />
     <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.PageUp" shortcut="Control+B" />
     <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.PageDown" shortcut="Control+F" />
+    <binding command="MonoDevelop.Debugger.DebugCommands.Continue" shortcut="F5" />
   </scheme>
 </schemes>
