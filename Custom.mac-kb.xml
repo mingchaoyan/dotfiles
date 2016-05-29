@@ -102,5 +102,6 @@
     <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.PageUp" shortcut="Control+B" />
     <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.PageDown" shortcut="Control+F" />
     <binding command="MonoDevelop.Debugger.DebugCommands.Continue" shortcut="F5" />
+    <binding command="MonoDevelop.Ide.Commands.TextEditorCommands.ShowCodeTemplateWindow" shortcut="Tab|Tab" />
   </scheme>
 </schemes>
