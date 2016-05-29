@@ -1,4 +1,4 @@
-<schemes version="1.0">
+﻿<schemes version="1.0">
   <scheme name="current">
     <binding command="MonoDevelop.Ide.Commands.EditCommands.DeleteKey" shortcut="BackSpace" />
     <binding command="MonoDevelop.Ide.Commands.EditCommands.Copy" shortcut="Meta+C" />
@@ -94,7 +94,7 @@
     <binding command="MonoDevelop.SourceEditor.SourceEditorCommands.NextIssueError" shortcut="Alt+Shift+Page_Down" />
     <binding command="MonoDevelop.SourceEditor.SourceEditorCommands.PrevIssueError" shortcut="Alt+Shift+Page_Up" />
     <binding command="MonoDevelop.Refactoring.RefactoryCommands.GotoDeclaration" shortcut="" />
-    <binding command="MonoDevelop.Refactoring.RefactoryCommands.FindReferences" shortcut="Shift+Meta+R" />
+    <binding command="MonoDevelop.Refactoring.RefactoryCommands.FindReferences" shortcut="Control+Shift+]" />
     <binding command="MonoDevelop.Refactoring.RefactoryCommands.QuickFix" shortcut="Alt+Return" />
     <binding command="MonoDevelop.Refactoring.RefactoryCommands.ImportSymbol" shortcut="Control+Alt+Space" />
     <binding command="MonoDevelop.AnalysisCore.AnalysisCommands.ShowFixes" shortcut="Control+." />
