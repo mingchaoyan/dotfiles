@@ -87,7 +87,7 @@
     <binding command="MonoDevelop.Debugger.DebugCommands.StepOver" shortcut="F4" />
     <binding command="MonoDevelop.Debugger.DebugCommands.StepInto" shortcut="F3" />
     <binding command="MonoDevelop.Debugger.DebugCommands.StepOut" shortcut="F2" />
-    <binding command="MonoDevelop.Debugger.DebugCommands.ToggleBreakpoint" shortcut="Meta+\" />
+    <binding command="MonoDevelop.Debugger.DebugCommands.ToggleBreakpoint" shortcut="F8" />
     <binding command="MonoDevelop.Debugger.DebugCommands.EnableDisableBreakpoint" shortcut="Alt+Meta+/" />
     <binding command="MonoDevelop.SourceEditor.SourceEditorCommands.NextIssue" shortcut="Alt+Page_Down" />
     <binding command="MonoDevelop.SourceEditor.SourceEditorCommands.PrevIssue" shortcut="Alt+Page_Up" />
