@@ -21,10 +21,10 @@
     <binding command="MonoDevelop.Ide.Commands.ProjectCommands.Build" shortcut="Meta+K" />
     <binding command="MonoDevelop.Ide.Commands.ProjectCommands.RebuildSolution" shortcut="Control+Meta+B" />
     <binding command="MonoDevelop.Ide.Commands.ProjectCommands.Rebuild" shortcut="Control+Meta+K" />
-    <binding command="MonoDevelop.Ide.Commands.ProjectCommands.Run" shortcut="Alt+Meta+Return" />
+    <binding command="MonoDevelop.Ide.Commands.ProjectCommands.Run" shortcut="Control+Shift+Return" />
     <binding command="MonoDevelop.Ide.Commands.ProjectCommands.Clean" shortcut="Shift+Meta+K" />
     <binding command="MonoDevelop.Ide.Commands.ProjectCommands.Stop" shortcut="Shift+Meta+Return" />
-    <binding command="MonoDevelop.Debugger.DebugCommands.Debug" shortcut="Meta+Return" />
+    <binding command="MonoDevelop.Debugger.DebugCommands.Debug" shortcut="Control+Return" />
     <binding command="MonoDevelop.Ide.Commands.FileCommands.OpenFile" shortcut="Meta+O" />
     <binding command="MonoDevelop.Ide.Commands.FileCommands.NewFile" shortcut="Meta+N" />
     <binding command="MonoDevelop.Ide.Commands.FileCommands.Save" shortcut="Meta+S" />
