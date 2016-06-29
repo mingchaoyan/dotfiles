@@ -56,4 +56,6 @@
     1. test -d ~/Library/MonoDevelop-Unity-5.0/KeyBindings || mkdir -p ~/Library/MonoDevelop-Unity-5.0/KeyBindings && cp ~/GitHub/dotfiles/Custom.mac-kb.xml ~/Library/MonoDevelop-Unity-5.0/KeyBindings
     2. Preferences | Key Bindings | Scheme | Choose Custom
 
-
+#### Code Style
+* 显示不可见字符 Preferences | Text Editor | Markers and Rulers | Show invisible characters | Choose Always | Check *Include Spaces*  *Include Tabs* *Include Line Endings*
+* Style Template Preferences | Source Code | Code Formatting | C# source code | Policy SharpDevelop style(1TBS)
