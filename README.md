@@ -29,6 +29,7 @@
 * 步骤:
     0. git clone git@github.com:mingchaoyan/dotfiles.git && git submodule init && git submodule update
     1. ln -s ~/GitHub/dotfiles/tmux-powerline  ~/.tmux-powerline
+    2. ln -s ~/GitHub/dotfiles/tmux-powerlinerc ~/.tmux-powerlinerc
     
 
 ## Monodevelop
