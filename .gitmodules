@@ -1,3 +1,6 @@
 [submodule "dircolors-solarized"]
 	path = dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "visualstudio-colors-solarized"]
+	path = visualstudio-colors-solarized
+	url = https://github.com/leddt/visualstudio-colors-solarized.git
