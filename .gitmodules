@@ -4,3 +4,6 @@
 [submodule "visualstudio-colors-solarized"]
 	path = visualstudio-colors-solarized
 	url = https://github.com/leddt/visualstudio-colors-solarized.git
+[submodule "tmux-powerline"]
+	path = tmux-powerline
+	url = https://github.com/erikw/tmux-powerline.git

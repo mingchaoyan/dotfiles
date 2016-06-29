@@ -16,6 +16,16 @@
     0. git clone git@github.com:mingchaoyan/dotfiles.git
     1. ln -s ~/GitHub/dotfiles/dircolors-solarized .dircolors-solarized
 
+## TMux
+
+### 快捷键
+* 原因: 习惯
+* 步骤: 
+    0. git clone git@github.com:mingchaoyan/dotfiles.git && git submodule init && git submodule update
+    1. ln -s ~/.tmux.conf ~/GitHub/dotfiles/tmux.conf
+
+### PowerLine
+
 ## Monodevelop
 
 ### 配色
