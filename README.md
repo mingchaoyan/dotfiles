@@ -2,6 +2,13 @@
 
 ## iTerm
 
+### 配色
+
+#### 终端背景色
+Preferences | Profiles | Colors | Color Presets | Choose Solarized Dark 
+
+#### ls目录颜色
+
 ## Monodevelop
 
 ### 配色
