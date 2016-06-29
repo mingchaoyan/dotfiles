@@ -25,6 +25,11 @@
     1. ln -s ~/.tmux.conf ~/GitHub/dotfiles/tmux.conf
 
 ### PowerLine
+* 原因: console中监控主机
+* 步骤:
+    0. git clone git@github.com:mingchaoyan/dotfiles.git && git submodule init && git submodule update
+    1. ln -s ~/GitHub/dotfiles/tmux-powerline  ~/.tmux-powerline
+    
 
 ## Monodevelop
 
