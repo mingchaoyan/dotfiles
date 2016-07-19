@@ -105,4 +105,4 @@ elif [ $SYSTEM = "Darwin" ] ;then
         eval `gdircolors ~/.dircolors-solarized/dircolors.256dark`
 fi
 
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/Users/mingchaoyan/Library/Android/sdk/platform-tools:/Applications/Unity/Unity.app/Contents/Frameworks/Mono/bin:/usr/local/sbin:$PATH"
