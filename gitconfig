@@ -1,18 +1,19 @@
 [user]
-    name = mingchaoyan
-    email = mingchaoyan@gmail.com
+  name = mingchaoyan
+  email = mingchaoyan@gmail.com
 [core]
-	editor = vim
-	excludesfile = ~/.gitignore_global
-	quotepath = false
+  editor = vim
+  excludesfile = ~/.gitignore_global
+  quotepath = false
+	ignorecase = false
 [difftool]
-        tool = vimdiff
-	prompt = No
+  tool = vimdiff
+  prompt = No
 [push]
-	default = simple
+  default = simple
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
 [color]
-	ui = auto
+  ui = auto

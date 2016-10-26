@@ -106,3 +106,4 @@ elif [ $SYSTEM = "Darwin" ] ;then
 fi
 
 export PATH="/Users/mingchaoyan/Library/Android/sdk/platform-tools:/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Versions/Current/bin:/usr/local/sbin:$PATH"
+source ~/.bashrc
