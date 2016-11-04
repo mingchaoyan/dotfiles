@@ -90,6 +90,7 @@ alias gd="git difftool"
 alias gdc="git difftool --cached"
 alias redis-server="/usr/local/src/redis-3.0.7/src/redis-server"
 alias redis-cli="/usr/local/src/redis-3.0.7/src/redis-cli"
+alias r="rebar3"
 
 # Tmux
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"
