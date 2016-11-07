@@ -88,8 +88,8 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gd="git difftool"
 alias gdc="git difftool --cached"
-alias redis-server="/usr/local/src/redis-3.0.7/src/redis-server"
-alias redis-cli="/usr/local/src/redis-3.0.7/src/redis-cli"
+alias cdh="cd ~/GitHub"
+alias cdl="cd ~/GitLab"
 alias r="rebar3"
 
 # Tmux
