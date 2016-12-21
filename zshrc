@@ -88,9 +88,8 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gd="git difftool"
 alias gdc="git difftool --cached"
-alias cdh="cd ~/GitHub"
-alias cdl="cd ~/GitLab"
 alias r="rebar3"
+alias snd="rlwrap nc 127.0.0.1 8000"
 
 # Tmux
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"
@@ -106,5 +105,7 @@ elif [ $SYSTEM = "Darwin" ] ;then
         eval `gdircolors ~/.dircolors-solarized/dircolors.256dark`
 fi
 
-export PATH="/Users/mingchaoyan/Library/Android/sdk/platform-tools:/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Versions/Current/bin:/usr/local/sbin:$PATH"
+export PATH="/Users/mingchaoyan/Library/Android/sdk/platform-tools:/usr/local/sbin:$PATH"
 source ~/.bashrc
+
+export VIMRUNTIME=/Applications/MacVim.app/Contents/Resources/vim/runtime
