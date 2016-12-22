@@ -39,7 +39,7 @@ indent_size = 2
 
 [*.lua]
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 [**/otp_src_*/**.c]
 tab_width = 8
