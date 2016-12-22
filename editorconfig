@@ -41,5 +41,9 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+[*.c]
+indent_style = space
+indent_size = 4
+
 [**/otp_src_*/**.c]
 tab_width = 8
