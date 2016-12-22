@@ -109,3 +109,4 @@ export PATH="/Users/mingchaoyan/Library/Android/sdk/platform-tools:/usr/local/sb
 source ~/.bashrc
 
 export VIMRUNTIME=/Applications/MacVim.app/Contents/Resources/vim/runtime
+export SVN_EDITOR=vim
