@@ -3,7 +3,7 @@
 ## Usage
 
     cd ~    
-    git clone git@github.com:mingchaoyan/dotfiles.git --recursive .dotfiles
+    git clone https://github.com/mingchaoyan/dotfiles.git --recursive .dotfiles
 
 
 
