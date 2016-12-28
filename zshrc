@@ -90,6 +90,8 @@ alias gd="git difftool"
 alias gdc="git difftool --cached"
 alias r="rebar3"
 alias snd="rlwrap nc 127.0.0.1 8000"
+alias sc="svn commit"
+alias sst="svn status"
 
 # Tmux
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"
