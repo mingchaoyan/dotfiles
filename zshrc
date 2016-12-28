@@ -112,3 +112,7 @@ source ~/.bashrc
 
 export VIMRUNTIME=/Applications/MacVim.app/Contents/Resources/vim/runtime
 export SVN_EDITOR=vim
+# GNU ls color
+
+alias ls='gls --color=auto'
+eval `gdircolors ~/.dircolors-solarized/dircolors.256dark`
