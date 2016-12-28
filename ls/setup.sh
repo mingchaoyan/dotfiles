@@ -1,12 +1,12 @@
-ln -s $HOME/.dotfiles/ls/dircolors-solarize .dircolors-solarize
+cp -apf $HOME/.dotfiles/ls/dircolors-solarized .dircolors-solarized
 
-ktform=$(uname)
+platform=$(uname)
 
 # we need to configure tmux differently depending on OS
 if [[ $platform == *Darwin* ]]
 then
-  cat $HOME/dotfiles/tmux/tmux-osx.conf >> ~/.tmux.conf
+        cat $HOME/.dotfiles/ls/dircolors-solarized-osx.conf >> ~/.zshrc
 else
-    cat $HOME/.dotfiles/ls/dircolors-solarized-linux.conf >> ~/.bashrc
+        cat $HOME/.dotfiles/ls/dircolors-solarized-linux.conf >> ~/.bashrc
 fi
 
