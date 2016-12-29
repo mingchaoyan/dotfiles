@@ -90,8 +90,6 @@ alias gd="git difftool"
 alias gdc="git difftool --cached"
 alias r="rebar3"
 alias snd="rlwrap nc 127.0.0.1 8000"
-alias sc="svn commit"
-alias sst="svn status"
 
 # Tmux
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"
@@ -111,8 +109,13 @@ export PATH="/Users/mingchaoyan/Library/Android/sdk/platform-tools:/usr/local/sb
 source ~/.bashrc
 
 export VIMRUNTIME=/Applications/MacVim.app/Contents/Resources/vim/runtime
-export SVN_EDITOR=vim
-# GNU ls color
 
+# Subversion
+export SVN_EDITOR=vim
+alias sst='svn st'
+alias sc='svn commit'
+
+# GNU ls color
 alias ls='gls --color=auto'
 eval `gdircolors ~/.dircolors-solarized/dircolors.256dark`
+
