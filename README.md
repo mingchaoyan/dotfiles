@@ -4,11 +4,11 @@
 
 * from github
 
-    cd ~    
-    git clone https://github.com/mingchaoyan/dotfiles.git --recursive .dotfiles
+        cd ~    
+        git clone https://github.com/mingchaoyan/dotfiles.git --recursive .dotfiles
 
 * form exsiting .dotfile 
 
-    rsync -vaP ~/.dotfiles dest:~/ --exclude=".git" --delete
+        rsync -vaP ~/.dotfiles dest:~/ --exclude=".git" --delete
 
 
