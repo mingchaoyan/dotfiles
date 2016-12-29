@@ -1,0 +1,68 @@
+Host l
+  User yanmingchao
+  HostName 172.16.30.222
+
+Host vc
+  HostName 192.168.56.101
+  ForwardAgent yes
+
+Host w1
+  User yanmingchao
+  HostName 183.146.209.142
+  Port 54322
+
+Host w2
+  User yanmingchao
+  HostName 183.146.209.143
+  Port 54322
+
+
+#Host *.u *.u.3pjgames.com
+#  ForwardAgent yes
+#  ProxyCommand ssh -q ops.3pjgames.com netcat -w 120 %h %p
+#  ControlMaster auto
+#
+#Host *.3pjgames.com
+#  ForwardAgent yes
+#  ControlMaster auto
+#
+#Host ubuntu@*.3pjgames.com ansible@*.3pjgames.com
+#  IdentityFile ~/.ssh/id_pj
+#
+#Host * !*.* !localhost
+#  User deploy
+#  HostName %h.3pjgames.com
+#  ForwardAgent yes
+#  ControlMaster auto
+#
+#Host ops.sanpj.com
+#  # Change ian to your user name
+#  User yanmingchao
+#
+#Host *.u.sanpj.com
+#  ForwardAgent yes
+#  ProxyCommand ssh -q ops.sanpj.com netcat -w 120 %h %p
+#  ControlMaster auto
+#
+#Host *.sanpj.com
+#  ForwardAgent yes
+#  ControlMaster auto
+#  User deploy
+#
+#Host *.efun.3pjgames.com
+#  User deploy
+#  Port 36000
+#
+#Host *.u.efun.3pjgames.com
+#  ForwardAgent yes
+#  ProxyCommand ssh -q ops.efun.3pjgames.com netcat -w 120 %h %p
+#  ControlMaster auto
+#
+#Host *.efun.3pjgames.com
+#  ForwardAgent yes
+#  ControlMaster auto
+#  User deploy
+#
+#Host *
+#  ControlPath ~/.ssh/cp-%r@%h:%p
+#  ControlPersist=15m
