@@ -7,7 +7,7 @@
     git clone https://github.com/mingchaoyan/dotfiles.git --recursive .dotfiles
 
 * 
-    rsync -vaP ~/.dotfiles l:~/ --exclude=".git"
+    rsync -vaP ~/.dotfiles l:~/ --exclude=".git" --delete
 
 
 ## TMux
