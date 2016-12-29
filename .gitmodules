@@ -7,3 +7,6 @@
 [submodule "Vim/dotvim"]
 	path = Vim/dotvim
 	url = https://github.com/mingchaoyan/dotvim.git
+[submodule "VisualStudio/visualstudio-colors-solarized"]
+	path = VisualStudio/visualstudio-colors-solarized
+	url = https://github.com/leddt/visualstudio-colors-solarized.git
