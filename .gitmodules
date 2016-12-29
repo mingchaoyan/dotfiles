@@ -7,3 +7,6 @@
 [submodule "ls/dircolors-solarized"]
 	path = ls/dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "Vim/dotvim"]
+	path = Vim/dotvim
+	url = https://github.com/mingchaoyan/dotvim.git
