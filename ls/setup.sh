@@ -1,4 +1,4 @@
-cp -apf $HOME/.dotfiles/ls/dircolors-solarized $HOME/.dircolors-solarized
+ln -sf $HOME/.dotfiles/ls/dircolors-solarized $HOME/.dircolors-solarized
 
 platform=$(uname)
 

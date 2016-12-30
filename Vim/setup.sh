@@ -1,1 +1,1 @@
-cp -apf $HOME/.dotfiles/Vim/dotvim $HOME/.vim
+ln -sf $HOME/.dotfiles/Vim/dotvim $HOME/.vim
