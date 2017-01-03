@@ -1,0 +1,7 @@
+#! /bin/bash
+
+main() {
+  rsync -vaP ~/.dotfiles "$1":~/ --exclude=".git" --exclude=".DS_Store" --delete
+}
+
+main "$@"
