@@ -95,16 +95,6 @@ alias snd="rlwrap nc 127.0.0.1 8000"
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="22726054"
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
-# GUN ls color
-
-if [ $SYSTEM = "Linux" ] ;then
-        alias ls='ls --color=auto'
-        eval `dircolors ~/.dircolors-solarized/dircolors.256dark`
-elif [ $SYSTEM = "Darwin" ] ;then
-        alias ls='gls --color=auto'
-        eval `gdircolors ~/.dircolors-solarized/dircolors.256dark`
-fi
-
 export PATH="/Users/mingchaoyan/Library/Android/sdk/platform-tools:/usr/local/sbin:$PATH"
 source ~/.bashrc
 
