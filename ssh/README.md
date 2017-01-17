@@ -7,7 +7,7 @@
     mkdir .ssh
     vim .ssh/authorized_keys # paste 
     chmod 700 .ssh
-    chmod 600 
+    chmod 600 .ssh/authorized_keys
     
 
 
