@@ -1,17 +1,17 @@
-Host l
-  User yanmingchao
-  HostName 172.16.30.222
-
-Host vc
+Host dev
   HostName 192.168.56.101
   ForwardAgent yes
 
-Host w1
+Host ci
+  User yanmingchao
+  HostName 172.16.30.222
+
+Host stage
   User yanmingchao
   HostName 183.146.209.142
   Port 54322
 
-Host w2
+Host prod
   User yanmingchao
   HostName 183.146.209.143
   Port 54322
