@@ -16,6 +16,9 @@ Host prod
   HostName 183.146.209.143
   Port 54322
 
+Host cvs
+  User yanmingchao
+  HostName 172.16.30.211
 
 #Host *.u *.u.3pjgames.com
 #  ForwardAgent yes
