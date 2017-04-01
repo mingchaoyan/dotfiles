@@ -1,0 +1,19 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+        "vim.insertModeKeyBindings": [
+                 {
+                              "before": ["j", "k"],
+                                         "after": ["<Esc>"]
+                                                }
+        ],
+        "workbench.colorTheme": "Solarized Dark",
+        "[cpp]": {
+              "editor.quickSuggestions": false
+        },
+        "[c]": {
+              "editor.quickSuggestions": false
+        },
+        "editor.rulers": [80,120]
+}
+
+
