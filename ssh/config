@@ -4,7 +4,7 @@ Host dev
 
 Host ci
   User yanmingchao
-  HostName 172.16.30.222
+  HostName 192.168.83.217
 
 Host stage
   User yanmingchao
@@ -18,7 +18,7 @@ Host prod
 
 Host cvs
   User yanmingchao
-  HostName 172.16.30.211
+  HostName 192.168.83.158
 
 #Host *.u *.u.3pjgames.com
 #  ForwardAgent yes
