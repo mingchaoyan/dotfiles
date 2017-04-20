@@ -1,0 +1,1 @@
+mklink %HOMEPATH%\AppData\Roaming\Code\User\settings.json %HOMEPATH%\GitHub\dotfiles\VSCode\settings.json
