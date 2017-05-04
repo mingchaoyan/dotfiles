@@ -98,8 +98,6 @@ PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -
 export PATH="/Users/mingchaoyan/Library/Android/sdk/platform-tools:/usr/local/sbin:$PATH"
 source ~/.bashrc
 
-export VIMRUNTIME=/Applications/MacVim.app/Contents/Resources/vim/runtime
-
 # Subversion
 export SVN_EDITOR=vim
 alias sst='svn st'
