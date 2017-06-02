@@ -7,12 +7,11 @@ Host ci
   HostName 192.168.83.217
 
 Host stage
-  User yanmingchao
+  User deploy
   HostName 183.146.209.142
   Port 54322
 
 Host prod
-  User yanmingchao
   HostName 183.146.209.143
   Port 54322
 
