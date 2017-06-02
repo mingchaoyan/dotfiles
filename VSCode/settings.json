@@ -12,12 +12,6 @@
             }
       ],
       "workbench.colorTheme": "Solarized Dark",
-      "[cpp]": {
-            "editor.quickSuggestions": false
-      },
-      "[c]": {
-            "editor.quickSuggestions": false
-      },
       "editor.rulers": [
             80,
             120
